@@ -1,0 +1,168 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+header {
+    background-color: #f59014; 
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+.activity-section {
+    width: 45%;
+  }
+  
+.activity-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  #campamento-aventura,
+  #clases-surf {
+    background-color: #ff8c00; 
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #taller-arte,
+  #excursion-bicicleta {
+    background-color: #ff8c00; 
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+ 
+footer {
+    background-color: #ffffff; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    background-color: #FFA500; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar {
+    background-color: #ff8c00; 
+    overflow: hidden;
+}
+
+.navbar a {
+    float: initial;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.main-content {
+   display: flex; 
+   justify-content: center; 
+   align-items: flex-start; 
+   margin-top: 20px;
+}
+
+.left-section,
+.right-section {
+   margin: 10px;
+}
+
+
+.activity-list {
+   width: 50%;
+   background-color: #FFDAB9; 
+   padding: 20px;
+}
+
+.activity-list h3 {
+    color: #ff8c00; 
+}
+
+.activity-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.activity-list li {
+    margin-bottom: 5px;
+}
+
+.activity-list span {
+    float: right;
+}
+
+
+.form-container {
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    width: 40%;
+}
+
+.form-container h3 {
+    color: #ff8c00; 
+    margin-bottom: 15px;
+}
+
+.form-container form {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+    border: none;
+    border-bottom: 1px solid #f7b5b5;
+    padding-left: 5px;
+}
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid #615e5e; 
+    text-align: left; 
+    padding: 8px; 
+}
+
+th {
+    background-color: #ff8c00; 
+    color: white; 
+}
+
+tr:hover {background-color: #FFDAB9;}
+
+  
